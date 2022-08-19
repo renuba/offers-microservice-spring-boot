@@ -9,7 +9,7 @@ image:
 service:
   type: NodePort
   port: 8080
-  name: offer
-  targetport: 8080
+  name: offer-service
+  targetport: 1001
 container:
   name: offers
